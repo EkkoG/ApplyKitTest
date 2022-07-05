@@ -1,0 +1,23 @@
+PODS:
+  - ApplyKitTest (0.1.0)
+  - ApplyStyleKit (0.3.1)
+
+DEPENDENCIES:
+  - ApplyKitTest (from `../`)
+  - ApplyStyleKit
+
+SPEC REPOS:
+  trunk:
+    - ApplyStyleKit
+
+EXTERNAL SOURCES:
+  ApplyKitTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ApplyKitTest: 2c575b3bc8b3ee220c1c8164c370747df0eaeb46
+  ApplyStyleKit: 0343b87f29764f0b8f80fb49d00361642da12ee6
+
+PODFILE CHECKSUM: 266ada8be96e4dfc63a049ac2bf608238c69a651
+
+COCOAPODS: 1.11.2

@@ -4,6 +4,7 @@ platform :ios, '10.0'
 
 target 'ApplyKitTest_Example' do
   pod 'ApplyKitTest', :path => '../'
+  pod 'ApplyStyleKit'
 
   target 'ApplyKitTest_Tests' do
     inherit! :search_paths

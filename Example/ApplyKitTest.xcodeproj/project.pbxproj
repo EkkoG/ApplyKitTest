@@ -270,10 +270,12 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ApplyKitTest_Example/Pods-ApplyKitTest_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/ApplyKitTest/ApplyKitTest.framework",
+				"${BUILT_PRODUCTS_DIR}/ApplyStyleKit/ApplyStyleKit.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ApplyKitTest.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ApplyStyleKit.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
